@@ -46,6 +46,7 @@ var APP_DATA = {
           "yaw": 1.4697767647941031,
           "pitch": -0.3273774728262282,
           "title": "Example Tile",
+          "image": "./img/close.png",
           "text": "This is an example info bit"
         }]
     }

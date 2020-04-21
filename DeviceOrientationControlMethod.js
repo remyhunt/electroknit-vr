@@ -40,7 +40,7 @@ Marzipano.dependencies.eventEmitter(DeviceOrientationControlMethod);
 
 DeviceOrientationControlMethod.prototype.destroy = function() {
   this._dynamics = null;
-  if (window.DeviceOrientationEvent) {
+  if (window.deviceOrientationEvent) {
     window.removeEventListener('deviceorientation', this._deviceOrientationHandler);
   }
   this._deviceOrientationHandler = null;
@@ -109,7 +109,7 @@ function rotateEuler(euler, result) {
 
   /* [m00 m01 m02] 0 1 2
    * [m10 m11 m12] 3 4 5
-   * [m20 m21 m22] 6 7 8 */
+   * [m20 m21 m22] 6 7 8 */ui
 
   if (matrix[3] > 0.9999)
   {
