@@ -269,19 +269,24 @@
     //create wrapper for sources !!!
     var srcWrapper = document.createElement('div');
     srcWrapper.classList.add('info-hotspot-src-wrapper');
-    var srcImage = document.createElement('img');
-    srcImage.classList.add('info-hotspot-src-img');
-    srcImage.src = hotspot.image;
-    var srcText = document.createElement('div');
-    srcText.classList.add('info-hotspot-src-text');
-    srcText.innerHTML += 'Source:'
-    srcText.innerHTML += hotspot.text;
-    srcText.innerHTML += '<br><br>Library:'
-    srcText.innerHTML += hotspot.lib
-    
-    srcWrapper.appendChild(srcImage)
-    srcWrapper.appendChild(srcText);
+    var i = 0;
+    while(i < 4){
+      var srcImage = document.createElement('img');
+      srcImage.classList.add('info-hotspot-src-img');
+      srcImage.src = hotspot.citation[i].image;
+      var srcText = document.createElement('div');
+      srcText.classList.add('info-hotspot-src-text');
+      srcText.innerHTML += 'Source:'
+      srcText.innerHTML += hotspot.citation[i].text;
+      srcText.innerHTML += '<br><br>Library:'
+      srcText.innerHTML += hotspot.citation[i].lib;
+      srcWrapper.appendChild(srcImage)
+      srcWrapper.appendChild(srcText);
+      console.log('got here');
 
+      srcText.innerHTML += '<br><br>'
+      i++;
+    }
 
     // Place header and text into wrapper element.
     wrapper.appendChild(header);

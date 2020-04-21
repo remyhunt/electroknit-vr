@@ -655,11 +655,11 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .info-hotspot .info-hotspot-src-text{
     display: inline-block;
-    width: 260px;
+    width: 280px;
     font-size: 10px;
     line-height: 10px;
     vertical-align: top;
-    margin: 20px;
+    margin: 30px 20px 30px 30px;
 }
 .info-hotspot .info-hotspot-src-wrapper {
       display: inline-block;
