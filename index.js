@@ -111,7 +111,7 @@
     targetFov: Math.PI/2
   });
   if (data.settings.autorotateEnabled) {
-    autorotateToggleElement.classList.add('enabled');
+    autorotateToggleElement.classList.add('disabled');
   }
 
   // Set handler for autorotate toggle.
@@ -136,8 +136,8 @@
 
   var controls = viewer.controls();
 
-  var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
-  controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
+  // var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
+  // controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
@@ -265,9 +265,28 @@
     text.classList.add('info-hotspot-text');
     text.innerHTML = hotspot.text;
 
+
+    //create wrapper for sources !!!
+    var srcWrapper = document.createElement('div');
+    srcWrapper.classList.add('info-hotspot-src-wrapper');
+    var srcImage = document.createElement('img');
+    srcImage.classList.add('info-hotspot-src-img');
+    srcImage.src = hotspot.image;
+    var srcText = document.createElement('div');
+    srcText.classList.add('info-hotspot-src-text');
+    srcText.innerHTML += 'Source:'
+    srcText.innerHTML += hotspot.text;
+    srcText.innerHTML += '<br><br>Library:'
+    srcText.innerHTML += hotspot.lib
+    
+    srcWrapper.appendChild(srcImage)
+    srcWrapper.appendChild(srcText);
+
+
     // Place header and text into wrapper element.
     wrapper.appendChild(header);
-    wrapper.appendChild(text);
+    wrapper.appendChild(srcWrapper);
+
 
     // Create a modal for the hotspot content to appear on mobile mode.
     var modal = document.createElement('div');

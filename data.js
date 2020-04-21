@@ -45,9 +45,10 @@ var APP_DATA = {
        {
           "yaw": 1.4697767647941031,
           "pitch": -0.3273774728262282,
-          "title": "Example Tile",
-          "image": "./img/close.png",
-          "text": "This is an example info bit"
+          "title": "Patterns Found in This Area",
+          "image": "./assets/triangle11_1.png",
+          "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
+          "lib": " Healey Library"
         }]
     }
   ],
