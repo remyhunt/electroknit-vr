@@ -3,7 +3,7 @@
 Marzipano webview of interior of Electroknit Dymaxion sculpture
 
 Hosted at:
-https://electroknit-dymaxion.netlify.com/
+https://electroknit-vr.netlify.com/
 
 
 Marzipano project:
