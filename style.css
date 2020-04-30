@@ -447,13 +447,17 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .info-hotspot.visible {
   opacity: 1;
+  z-index:1;
 }
 
 .info-hotspot .info-hotspot-header {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(103,115,131);
+  background-color: rgba(255,180,180,.5);
+  /*background-color: #;*/
+  /*background-color: rgba*/
+  /*background-color: rgb(103,115,131);*/
   cursor: pointer;
   -webkit-transition: width 0.3s ease-in-out 0.5s,
                       border-radius 0.3s ease-in-out 0.5s;
@@ -468,6 +472,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .desktop.no-touch .info-hotspot .info-hotspot-header:hover {
+
   width: 460px;
   border-radius: 5px;
   -webkit-transition: width 0.3s ease-in-out,

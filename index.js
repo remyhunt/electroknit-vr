@@ -85,14 +85,11 @@
       pinFirstLevel: true
     });
 
-    // Create link hotspots.
-    data.linkHotspots.forEach(function(hotspot) {
-      var element = createLinkHotspotElement(hotspot);
-      scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
-    });
+
 
     // Create info hotspots.
     data.infoHotspots.forEach(function(hotspot) {
+      console.log('got here');
       var element = createInfoHotspotElement(hotspot);
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
@@ -270,7 +267,7 @@
     var srcWrapper = document.createElement('div');
     srcWrapper.classList.add('info-hotspot-src-wrapper');
     var i = 0;
-    while(i < 4){
+    while(i < hotspot.citation.length){
       var srcImage = document.createElement('img');
       srcImage.classList.add('info-hotspot-src-img');
       srcImage.src = hotspot.citation[i].image;
@@ -282,8 +279,6 @@
       srcText.innerHTML += hotspot.citation[i].lib;
       srcWrapper.appendChild(srcImage)
       srcWrapper.appendChild(srcText);
-      console.log('got here');
-
       srcText.innerHTML += '<br><br>'
       i++;
     }
