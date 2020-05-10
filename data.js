@@ -33,32 +33,6 @@ var APP_DATA = {
     },
     "infoHotspots": [
     {
-      "triangle": 11,
-      "yaw": 1.4697,
-      "pitch": -0.314,
-      "title": "Patterns Found in This Area 11",
-      "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
-        },
-        {
-          "image": "./assets/triangle11_2.png",
-          "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-          "lib": " Healey Library, University of Massachusetts, Boston"
-        },
-        {
-          "image": "./assets/triangle11_3.png",
-          "text": "O'Neale, Lila M. Tejidos De Los Altiplanos De Guatemala / Lila M. O'Neale. [Versión Espanola De Edith Recourat C.]. Departamento Editorial \"José De Pineda Ibarra\", Ministerio De Educación, 1965.",
-          "lib": " Healey Library, University of Massachusetts, Boston"
-        },
-        {
-          "image": "./assets/triangle11_4.png",
-          "text": "Pendleton, Mary. Navajo and Hopi Weaving Techniques. Macmillan, 1974.",
-          "lib": " Healey Library, University of Massachusetts, Boston"
-      }]
-    },
-    {
       "triangle": 10,
       "yaw": 1.7697,
       "pitch": 0.374,
@@ -87,6 +61,58 @@ var APP_DATA = {
       },
       ],
     },
+    {
+      "triangle": 11,
+      "yaw": 1.4697,
+      "pitch": -0.314,
+      "title": "Patterns Found in This Area",
+      "citation": [{
+        "image": "./assets/triangle11_1.png",
+        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
+        "lib": " Healey Library, University of Massachusetts, Boston"
+        },
+        {
+          "image": "./assets/triangle11_2.png",
+          "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
+          "lib": " Healey Library, University of Massachusetts, Boston"
+        },
+        {
+          "image": "./assets/triangle11_3.png",
+          "text": "O'Neale, Lila M. Tejidos De Los Altiplanos De Guatemala / Lila M. O'Neale. [Versión Espanola De Edith Recourat C.]. Departamento Editorial \"José De Pineda Ibarra\", Ministerio De Educación, 1965.",
+          "lib": " Healey Library, University of Massachusetts, Boston"
+        },
+        {
+          "image": "./assets/triangle11_4.png",
+          "text": "Pendleton, Mary. Navajo and Hopi Weaving Techniques. Macmillan, 1974.",
+          "lib": " Healey Library, University of Massachusetts, Boston"
+      }]
+    },
+    {
+      "triangle": 12,
+      "yaw": 2.2,
+      "pitch": -0.855,
+      "title": "Patterns Found in This Area",
+      "citation": [
+      {
+        "image": "./assets/triangle12_1.png",
+        "text": "Stone-Miller, Rebecca. Art of the Andes : from Chavín to Inca / Rebecca Stone-Miller. Thames & Hudson, 1996.",
+        "lib": " Healey Library, University of Massachusetts, Boston"
+      },
+      {
+        "image": "./assets/triangle12_2.png",
+        "text": "Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
+        "lib": " Healey Library, University of Massachusetts, Boston"
+      },{
+        "image": "./assets/triangle12_3.png",
+        "text": "Myers, Bernard S. Encyclopedia of World Art. New York: McGraw-Hill, 1959. Print.",
+        "lib": " Healey Library, University of Massachusetts, Boston"
+      },{
+        "image": "./assets/triangle12_4.png",
+        "text": "Myers, Bernard S. Encyclopedia of World Art. New York: McGraw-Hill, 1959. Print.",
+        "lib": " Healey Library, University of Massachusetts, Boston"
+      },
+      ],
+    }, 
     {
       "triangle": 0,
       "yaw": -1.2697,
@@ -131,32 +157,6 @@ var APP_DATA = {
         "lib": " Healey Library, University of Massachusetts, Boston"
       }],
     },
-    {
-      "triangle": 12,
-      "yaw": 2.2,
-      "pitch": -0.855,
-      "title": "Patterns Found in This Area",
-      "citation": [
-      {
-        "image": "./assets/triangle12_1.png",
-        "text": "Stone-Miller, Rebecca. Art of the Andes : from Chavín to Inca / Rebecca Stone-Miller. Thames & Hudson, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
-      },
-      {
-        "image": "./assets/triangle12_2.png",
-        "text": "Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
-      },{
-        "image": "./assets/triangle12_3.png",
-        "text": "Myers, Bernard S. Encyclopedia of World Art. New York: McGraw-Hill, 1959. Print.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
-      },{
-        "image": "./assets/triangle12_4.png",
-        "text": "Myers, Bernard S. Encyclopedia of World Art. New York: McGraw-Hill, 1959. Print.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
-      },x``
-      ],
-    }, 
     {
       "triangle": 0,
       "yaw": .1,
