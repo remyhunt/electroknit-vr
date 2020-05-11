@@ -655,16 +655,17 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .info-hotspot .info-hotspot-src-img {
     display: inline-block;
-    width: 130px;
-}.info-hotspot .info-hotspot-src-triangle {
+    width:130px;
+    margin: 10px auto 10px auto;
+ 
+} 
+
+
+.info-hotspot .info-hotspot-src-triangle {
   display: block;
   width: 450px;
   text-align:center;
   padding:10px;
-}
-.info-hotspot-src-img {
-  display: inline-block;
-  width: 80vw;
 }
 
 .info-hotspot .info-hotspot-src-text{
@@ -751,7 +752,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   top: 0;
   left: 0;
   position: absolute;
-  width: 100%;
+   100%;
   height: 100%;
   overflow: hidden;
   z-index: 11000 !important;

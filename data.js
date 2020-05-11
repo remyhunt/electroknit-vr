@@ -38,7 +38,7 @@ var APP_DATA = {
           "pitch": 0.43,
           "title": "Patterns Found in This Area",
           "citation": [{
-            "image": "./assets/triangle1_1.png",
+            "image": "1_1.png",
             "text": "",
             "lib": ""
           }],
@@ -47,21 +47,21 @@ var APP_DATA = {
           "triangle": 2,
           "yaw": -3.0,
           "pitch": 0.855,
-          "title": "Patterns Found in This Area 28",
+          "title": "Patterns Found in This Area",
           "citation": [{
-            "image": "./assets/triangle2_1.png",
+            "image": "2_1.png",
             "text": "",
             "lib": ""
           },{
-            "image": "./assets/triangle2_2.png",
+            "image": "2_2.png",
+            "text": "",
+            "lib": "" 
+          },{
+            "image": "2_3.png",
             "text": "",
             "lib": ""
           },{
-            "image": "./assets/triangle2_3.png",
-            "text": "",
-            "lib": ""
-          },{
-            "image": "./assets/triangle2_4.png",
+            "image": "2_4.png",
             "text": "",
             "lib": ""
           }],
@@ -72,27 +72,27 @@ var APP_DATA = {
           "pitch": 0.43,
           "title": "Patterns Found in This Area",
           "citation": [{
-            "image": "./assets/triangle3_1.png",
+            "image": "3_1.png",
             "text": "",
             "lib": ""
           },{
-            "image": "./assets/triangle3_2.png",
+            "image": "3_2.png",
             "text": "",
             "lib": ""
           },{
-            "image": "./assets/triangle3_3.png",
+            "image": "3_3.png",
             "text": "",
             "lib": ""
           },{
-            "image": "./assets/triangle3_4.png",
+            "image": "3_4.png",
             "text": "",
             "lib": ""
           },{
-            "image": "./assets/triangle3_5.png",
+            "image": "3_5.png",
             "text": "",
             "lib": ""
           },{
-            "image": "./assets/triangle3_6.png",
+            "image": "3_6.png",
             "text": "",
             "lib": ""
           },
@@ -104,7 +104,7 @@ var APP_DATA = {
         "pitch": -0.314,
         "title": "Patterns Found in This Area",
         "citation": [{
-          "image": "./assets/triangle4_1.jpg",
+          "image": "4_1.jpg",
           "text": "",
           "lib": ""
         }],
@@ -114,11 +114,11 @@ var APP_DATA = {
         "pitch": .8,
         "title": "Patterns Found in This Area",
         "citation": [{
-          "image": "./assets/triangle7_1.png",
+          "image": "7_1.png",
           "text": "",
           "lib": ""
         },{
-          "image": "./assets/triangle7_2.png",
+          "image": "7_2.png",
           "text": "",
           "lib": ""
         }],
@@ -129,26 +129,15 @@ var APP_DATA = {
         "yaw": 1.5708,
         "pitch": 1.5708,
         "citation": [{
-          "image": "./assets/triangle8_1.png",
+          "image": "8_1.png",
           "text": "",
           "lib": ""
         },{ 
-          "image": "./assets/triangle8_2.png",
+          "image": "8_2.png",
           "text": "",
           "lib": ""
         }],
-      },  
-      {
-         "triangle": 9,
-         "yaw": 1.0,
-         "pitch": .9,
-         "title": "Patterns Found in This Area 35",
-         "citation": [{
-           "image": "",
-           "text": "",
-           "lib": ""
-         }],
-       },
+      }, 
       {
         "triangle": 10,
         "yaw": 1.7697,
@@ -156,23 +145,23 @@ var APP_DATA = {
         "title": "Patterns Found in This Area",
         "citation": [
           {
-            "image": "./assets/triangle10_1.png",
+            "image": "10_1.png",
             "text": "Katzenberg, Gloria. Needlepoint and pattern: themes and variations. New York: Macmillan, 1974. Print. ",
             "lib": " Healey Library, University of Massachusetts, Boston"
           },{
-            "image": "./assets/triangle10_2.png",
+            "image": "10_2.png",
             "text": "Gordon, Beverly. Shaker Textile Arts / Beverly Gordon. University Press of New England, 1980, p 260.",
             "lib": " Healey Library, University of Massachusetts, Boston"
           },{
-            "image": "./assets/triangle10_3.png",
+            "image": "10_3.png",
             "text": "Íslensk sjónabók = Ornaments and patterns found in Iceland. Reykjavík: Heimilisiđnađarfélag Íslands, 2009. Print.",
             "lib": "Cat Mazza Collection"
           },{
-            "image": "./assets/triangle10_4.png",
+            "image": "10_4.png",
             "text": "Íslensk sjónabók = Ornaments and patterns found in Iceland. Reykjavík: Heimilisiđnađarfélag Íslands, 2009. Print.",
             "lib": "Cat Mazza Collection"
           },{
-            "image": "./assets/triangle10_5.png",
+            "image": "10_5.png",
             "text": "Íslensk sjónabók = Ornaments and patterns found in Iceland. Reykjavík: Heimilisiđnađarfélag Íslands, 2009. Print.",
             "lib": "Cat Mazza Collection"
           },
@@ -184,22 +173,22 @@ var APP_DATA = {
         "pitch": -0.314,
         "title": "Patterns Found in This Area",
         "citation": [{
-          "image": "./assets/triangle11_1.png",
+          "image": "11_1.png",
           "text": "Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
           "lib": " Healey Library, University of Massachusetts, Boston"
         },
         {
-          "image": "./assets/triangle11_2.png",
+          "image": "11_2.png",
           "text": "Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
           "lib": " Healey Library, University of Massachusetts, Boston"
         },
         {
-          "image": "./assets/triangle11_3.png",
+          "image": "11_3.png",
           "text": "O'Neale, Lila M. Tejidos De Los Altiplanos De Guatemala / Lila M. O'Neale. [Versión Espanola De Edith Recourat C.]. Departamento Editorial \"José De Pineda Ibarra\", Ministerio De Educación, 1965.",
           "lib": " Healey Library, University of Massachusetts, Boston"
         },
         {
-          "image": "./assets/triangle11_4.png",
+          "image": "11_4.png",
           "text": "Pendleton, Mary. Navajo and Hopi Weaving Techniques. Macmillan, 1974.",
           "lib": " Healey Library, University of Massachusetts, Boston"
         }]
@@ -211,32 +200,59 @@ var APP_DATA = {
         "title": "Patterns Found in This Area",
         "citation": [
           {
-            "image": "./assets/triangle12_1.png",
+            "image": "12_1.png",
             "text": "Stone-Miller, Rebecca. Art of the Andes : from Chavín to Inca / Rebecca Stone-Miller. Thames & Hudson, 1996.",
             "lib": " Healey Library, University of Massachusetts, Boston"
           },
           {
-            "image": "./assets/triangle12_2.png",
+            "image": "12_2.png",
             "text": "Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
             "lib": " Healey Library, University of Massachusetts, Boston"
           },{
-            "image": "./assets/triangle12_3.png",
+            "image": "12_3.png",
             "text": "Myers, Bernard S. Encyclopedia of World Art. New York: McGraw-Hill, 1959. Print.",
             "lib": " Healey Library, University of Massachusetts, Boston"
           },{
-            "image": "./assets/triangle12_4.png",
+            "image": "12_4.png",
             "text": "Myers, Bernard S. Encyclopedia of World Art. New York: McGraw-Hill, 1959. Print.",
             "lib": " Healey Library, University of Massachusetts, Boston"
           },
         ],
       }, 
       {
-        "triangle": 13,
-        "yaw": .45,
-        "pitch": 0.40,
+        "triangle": 14,
+        "yaw": -2,
+        "pitch": -0.855,
         "title": "Patterns Found in This Area",
         "citation": [{
-          "image": "",
+          "image": "14_1.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "14_2.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "14_3.png",
+          "text": "",
+          "lib": ""
+        }],
+      },
+      {
+        "triangle": 16,
+        "yaw": -0.55,
+        "pitch": -0.314,
+        "title": "Patterns Found in This Area",
+        "citation": [{
+          "image": "16_1.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "16_2.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "16_3.png",
           "text": "",
           "lib": ""
         }],
@@ -247,52 +263,74 @@ var APP_DATA = {
         "pitch": 0.35,
         "title": "Patterns Found in This Area",
         "citation": [{
-          "image": "./assets/triangle17_1.png",
+          "image": "17_1.png",
           "text": "",
           "lib": ""
         },{
-          "image": "./assets/triangle17_2.png",
+          "image": "17_2.png",
           "text": "",
           "lib": ""
         },{
-          "image": "./assets/triangle17_3.png",
+          "image": "17_3.png",
           "text": "",
           "lib": ""
         },{
-          "image": "./assets/triangle17_4.png",
-          "text": "",
-          "lib": ""
-        }],
-      },
-    
-      {
-        "triangle": 0,
-        "yaw": -1.2697,
-        "pitch": -0.314,
-        "title": "Patterns Found in This Area 21",
-        "citation": [{
-          "image": "",
+          "image": "17_4.png",
           "text": "",
           "lib": ""
         }],
       },
       {
-        "triangle": 0,
-        "yaw": -0.55,
-        "pitch": -0.314,
-        "title": "Patterns Found in This Area 22",
+        "triangle": 18,
+        "yaw": .45,
+        "pitch": 0.40,
+        "title": "Patterns Found in This Area",
         "citation": [{
-          "image": "",
+          "image": "18_1.png",
+          "text": "",
+          "lib": ""
+        },
+        {
+          "image": "18_2.png",
           "text": "",
           "lib": ""
         }],
-      },
-      
+      }, 
       {
         "triangle": 19,
         "yaw": 3.7,
         "pitch": -0.314,
         "title": "Patterns Found in This Area",
+        "citation": [{
+          "image": "19_1.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "19_2.png",
+          "text": "",
+          "lib": ""
+        },],
+      },
+      {
+         "triangle": 0,
+         "yaw": 1.0,
+         "pitch": .9,
+         "title": "Patterns Found in This Area Unknown!!!",
+         "citation": [{
+          "image": "",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "",
+          "text": "",
+          "lib": ""
+        }],
+       },
+      {
+        "triangle": 0,
+        "yaw": -1.2697,
+        "pitch": -0.314,
+        "title": "Patterns Found in This Area Unknown!!!",
         "citation": [{
           "image": "",
           "text": "",
@@ -303,7 +341,7 @@ var APP_DATA = {
         "triangle": 0,
         "yaw": .1,
         "pitch": -0.755,
-        "title": "Patterns Found in This Area 26",
+        "title": "Patterns Found in This Area Unknown!!!",
         "citation": [{
           "image": "",
           "text": "",
@@ -311,27 +349,8 @@ var APP_DATA = {
         }],
       },
       {
-        "triangle": 14,
-        "yaw": -2,
-        "pitch": -0.855,
-        "title": "Patterns Found in This Area",
-        "citation": [{
-          "image": "./assets/triangle14_1.png",
-          "text": "",
-          "lib": ""
-        },{
-          "image": "./assets/triangle14_2.png",
-          "text": "",
-          "lib": ""
-        },{
-          "image": "./assets/triangle14_3.png",
-          "text": "",
-          "lib": ""
-        }],
-      },
-      {
         "triangle": 0,
-        "title": "Patterns Found in This Area",
+        "title": "Patterns Found in This Area Unknown!!!",
         "yaw": -1.5708,
         "pitch": -1.5708,
         "citation": [{

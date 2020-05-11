@@ -281,15 +281,18 @@
     while(i < hotspot.citation.length){
       var srcImage = document.createElement('img');
       srcImage.classList.add('info-hotspot-src-img');
-      srcImage.src = hotspot.citation[i].image;
+      srcImage.src = "./assets/" + hotspot.citation[i].image;
       var srcText = document.createElement('div');
-      srcText.classList.add('info-hotspot-src-text');
-      srcText.innerHTML += 'Source:'
-      srcText.innerHTML += hotspot.citation[i].text;
-      srcText.innerHTML += '<br><br>Library:'
-      srcText.innerHTML += hotspot.citation[i].lib;
+      if(hotspot.citation[i].text != ""){
+        srcText.classList.add('info-hotspot-src-text');
+        srcText.innerHTML += 'Source:'
+        srcText.innerHTML += hotspot.citation[i].text;
+        srcText.innerHTML += '<br><br>Library:'
+        srcText.innerHTML += hotspot.citation[i].lib;
+      }
       srcWrapper.appendChild(srcImage)
       srcWrapper.appendChild(srcText);
+      
       srcText.innerHTML += '<br><br>'
       i++;
     }
