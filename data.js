@@ -40,24 +40,24 @@ var APP_DATA = {
       "citation": [
       {
         "image": "./assets/triangle10_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
+        "text": "Katzenberg, Gloria. Needlepoint and pattern: themes and variations. New York: Macmillan, 1974. Print. ",
         "lib": " Healey Library, University of Massachusetts, Boston"
       },{
         "image": "./assets/triangle10_2.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
+        "text": "Gordon, Beverly. Shaker Textile Arts / Beverly Gordon. University Press of New England, 1980, p 260.",
         "lib": " Healey Library, University of Massachusetts, Boston"
       },{
         "image": "./assets/triangle10_3.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "text": "Íslensk sjónabók = Ornaments and patterns found in Iceland. Reykjavík: Heimilisiđnađarfélag Íslands, 2009. Print.",
+        "lib": "Cat Mazza Collection"
       },{
         "image": "./assets/triangle10_4.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "text": "Íslensk sjónabók = Ornaments and patterns found in Iceland. Reykjavík: Heimilisiđnađarfélag Íslands, 2009. Print.",
+        "lib": "Cat Mazza Collection"
       },{
         "image": "./assets/triangle10_5.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "text": "Íslensk sjónabók = Ornaments and patterns found in Iceland. Reykjavík: Heimilisiđnađarfélag Íslands, 2009. Print.",
+        "lib": "Cat Mazza Collection"
       },
       ],
     },
@@ -115,6 +115,80 @@ var APP_DATA = {
     }, 
     {
       "triangle": 0,
+      "yaw": 2.6,
+      "pitch": 0.43,
+      "title": "Patterns Found in This Area 31",
+      "citation": [{
+        "image": "",
+        "text": "",
+        "lib": ""
+      }],
+    },{
+      "triangle": 0,
+      "yaw": -2.2,
+      "pitch": 0.43,
+      "title": "Patterns Found in This Area 32",
+      "citation": [{
+        "image": "",
+        "text": "",
+        "lib": ""
+      }],
+    },
+    {
+      "triangle": 0,
+      "yaw": -0.3,
+      "pitch": 0.35,
+      "title": "Patterns Found in This Area 33",
+      "citation": [{
+        "image": "",
+        "text": "",
+        "lib": ""
+      }],
+    },
+    {
+      "triangle": 0,
+      "yaw": .45,
+      "pitch": 0.40,
+      "title": "Patterns Found in This Area 34",
+      "citation": [{
+        "image": "",
+        "text": "",
+        "lib": ""
+      }],
+    },
+    {
+      "triangle": 0,
+      "yaw": .45,
+      "pitch": 0.40,
+      "title": "Patterns Found in This Area 34",
+      "citation": [{
+        "image": "",
+        "text": "",
+        "lib": ""
+      }],
+    },{
+      "triangle": 0,
+      "yaw": 1.0,
+      "pitch": .9,
+      "title": "Patterns Found in This Area 35",
+      "citation": [{
+        "image": "",
+        "text": "",
+        "lib": ""
+      }],
+    },{
+      "triangle": 0,
+      "yaw": -.96,
+      "pitch": .8,
+      "title": "Patterns Found in This Area 36",
+      "citation": [{
+        "image": "",
+        "text": "",
+        "lib": ""
+      }],
+    },
+    {
+      "triangle": 0,
       "yaw": -1.2697,
       "pitch": -0.314,
       "title": "Patterns Found in This Area 21",
@@ -130,9 +204,9 @@ var APP_DATA = {
       "pitch": -0.314,
       "title": "Patterns Found in This Area 22",
       "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "image": "",
+        "text": "",
+        "lib": ""
       }],
     },
     {
@@ -141,9 +215,9 @@ var APP_DATA = {
       "pitch": -0.314,
       "title": "Patterns Found in This Area 23",
       "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "image": "",
+        "text": "",
+        "lib": ""
       }],
     },
     {
@@ -152,9 +226,9 @@ var APP_DATA = {
       "pitch": -0.314,
       "title": "Patterns Found in This Area 24",
       "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "image": "",
+        "text": "",
+        "lib": ""
       }],
     },
     {
@@ -163,9 +237,9 @@ var APP_DATA = {
       "pitch": -0.755,
       "title": "Patterns Found in This Area 26",
       "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "image": "",
+        "text": "",
+        "lib": ""
       }],
     },
     {
@@ -174,9 +248,9 @@ var APP_DATA = {
       "pitch": -0.855,
       "title": "Patterns Found in This Area 27",
       "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "image": "",
+        "text": "",
+        "lib": ""
       }],
     },
     {
@@ -185,9 +259,9 @@ var APP_DATA = {
       "pitch": 0.855,
       "title": "Patterns Found in This Area 28",
       "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "image": "",
+        "text": "",
+        "lib": ""
       }],
     },
     {
@@ -196,19 +270,19 @@ var APP_DATA = {
       "yaw": 1.5708,
       "pitch": 1.5708,
       "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "image": "",
+        "text": "",
+        "lib": ""
       }],
     },{
       "triangle": 0,
-      "triangle_identifier": "bottom-morrocco 210",
+      "triangle_identifier": "bottom-morrocco 30",
       "yaw": -1.5708,
       "pitch": -1.5708,
       "citation": [{
-        "image": "./assets/triangle11_1.png",
-        "text": "Source: Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
-        "lib": " Healey Library, University of Massachusetts, Boston"
+        "image": "",
+        "text": "",
+        "lib": ""
       }],
     }
     ]
