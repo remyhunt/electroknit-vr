@@ -132,12 +132,23 @@ var APP_DATA = {
           "image": "./assets/triangle8_1.png",
           "text": "",
           "lib": ""
-        },{
+        },{ 
           "image": "./assets/triangle8_2.png",
           "text": "",
           "lib": ""
         }],
-      },
+      },  
+      {
+         "triangle": 9,
+         "yaw": 1.0,
+         "pitch": .9,
+         "title": "Patterns Found in This Area 35",
+         "citation": [{
+           "image": "",
+           "text": "",
+           "lib": ""
+         }],
+       },
       {
         "triangle": 10,
         "yaw": 1.7697,
@@ -220,6 +231,17 @@ var APP_DATA = {
         ],
       }, 
       {
+        "triangle": 13,
+        "yaw": .45,
+        "pitch": 0.40,
+        "title": "Patterns Found in This Area",
+        "citation": [{
+          "image": "",
+          "text": "",
+          "lib": ""
+        }],
+      },
+      {
         "triangle": 17,
         "yaw": -0.3,
         "pitch": 0.35,
@@ -242,38 +264,7 @@ var APP_DATA = {
           "lib": ""
         }],
       },
-      {
-        "triangle": 0,
-        "yaw": .45,
-        "pitch": 0.40,
-        "title": "Patterns Found in This Area 34",
-        "citation": [{
-          "image": "",
-          "text": "",
-          "lib": ""
-        }],
-      },
-      {
-        "triangle": 0,
-        "yaw": .45,
-        "pitch": 0.40,
-        "title": "Patterns Found in This Area 34",
-        "citation": [{
-          "image": "",
-          "text": "",
-          "lib": ""
-        }],
-      },{
-        "triangle": 0,
-        "yaw": 1.0,
-        "pitch": .9,
-        "title": "Patterns Found in This Area 35",
-        "citation": [{
-          "image": "",
-          "text": "",
-          "lib": ""
-        }],
-      },
+    
       {
         "triangle": 0,
         "yaw": -1.2697,
