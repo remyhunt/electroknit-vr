@@ -92,6 +92,7 @@
       console.log('got here');
       var element = createInfoHotspotElement(hotspot);
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
+      
     });
 
     return {
@@ -242,6 +243,8 @@
     var title = document.createElement('div');
     title.classList.add('info-hotspot-title');
     title.innerHTML = hotspot.title;
+    // TODO: replace this with above line
+    title.innerHTML += hotspot.triangle;
     titleWrapper.appendChild(title);
 
     // Create close element.
@@ -264,8 +267,16 @@
 
 
     //create wrapper for sources !!!
+    
     var srcWrapper = document.createElement('div');
     srcWrapper.classList.add('info-hotspot-src-wrapper');
+    
+    var srcTriangle = document.createElement('img');
+    srcTriangle.classList.add('info-hotspot-src-triangle');
+    srcTriangle.src = "./triangles/" + hotspot.triangle + ".png";
+
+    srcWrapper.appendChild(srcTriangle);
+
     var i = 0;
     while(i < hotspot.citation.length){
       var srcImage = document.createElement('img');

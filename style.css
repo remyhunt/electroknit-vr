@@ -656,6 +656,11 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .info-hotspot .info-hotspot-src-img {
     display: inline-block;
     width: 130px;
+}.info-hotspot .info-hotspot-src-triangle {
+  display: block;
+  width: 450px;
+  text-align:center;
+  padding:10px;
 }
 .info-hotspot-src-img {
   display: inline-block;
