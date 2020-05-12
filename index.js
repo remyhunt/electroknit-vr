@@ -244,7 +244,7 @@
     title.classList.add('info-hotspot-title');
     title.innerHTML = hotspot.title;
     // TODO: replace this with above line
-    title.innerHTML += " ( " + hotspot.triangle + " ) ";
+    // title.innerHTML += " ( " + hotspot.triangle + " ) ";
     titleWrapper.appendChild(title);
 
     // Create close element.
@@ -283,16 +283,18 @@
       srcImage.classList.add('info-hotspot-src-img');
       srcImage.src = "./assets/" + hotspot.citation[i].image;
       var srcText = document.createElement('div');
-      if(hotspot.citation[i].text != ""){
-        srcText.classList.add('info-hotspot-src-text');
-        srcText.innerHTML += 'Source:'
-        srcText.innerHTML += hotspot.citation[i].text;
-        srcText.innerHTML += '<br><br>Library:'
-        srcText.innerHTML += hotspot.citation[i].lib;
-      }
+      srcText.classList.add('info-hotspot-src-text');
+      srcText.innerHTML += 'Source:'
+      srcText.innerHTML += hotspot.citation[i].text;
+      srcText.innerHTML += '<br><br>Library:'
+      srcText.innerHTML += hotspot.citation[i].lib;
       srcWrapper.appendChild(srcImage)
-      srcWrapper.appendChild(srcText);
-      
+      if(hotspot.citation[i].text != ""){
+        srcWrapper.appendChild(srcText);
+      } else {
+        srcImage.classList.add('notext');
+      }
+
       srcText.innerHTML += '<br><br>'
       i++;
     }
@@ -337,25 +339,6 @@
     }
   }
 
-/*  function findSceneById(id) {
-    for (var i = 0; i < scenes.length; i++) {
-      if (scenes[i].data.id === id) {
-        return scenes[i];
-      }
-    }
-    return null;
-  }
-
-  function findSceneDataById(id) {
-    for (var i = 0; i < data.scenes.length; i++) {
-      if (data.scenes[i].id === id) {
-        return data.scenes[i];
-      }
-    }
-    return null;
-  }*/
-
-  // Display the initial scene.
   switchScene(scenes[0]);
 
 })();
