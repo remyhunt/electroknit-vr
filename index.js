@@ -134,7 +134,8 @@
 
   var controls = viewer.controls();
 
-  // var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
+  var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
+  console.log(deviceOrientationControlMethod)
   // controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
   function sanitize(s) {
