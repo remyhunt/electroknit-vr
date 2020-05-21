@@ -245,7 +245,7 @@
     title.classList.add('info-hotspot-title');
     title.innerHTML = hotspot.title;
     // TODO: replace this with above line
-    // title.innerHTML += " ( " + hotspot.triangle + " ) ";
+    title.innerHTML += " ( " + hotspot.triangle + " ) ";
     titleWrapper.appendChild(title);
 
     // Create close element.

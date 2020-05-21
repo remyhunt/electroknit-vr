@@ -108,10 +108,44 @@ var APP_DATA = {
           "text": "",
           "lib": ""
         }],
+      }, {
+        "triangle": 6,
+        "yaw": -2,
+        "pitch": -0.855,
+        "title": "Patterns Found in This Area",
+        "citation": [{
+          "image": "6_1.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "6_2.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "6_3.png",
+          "text": "",
+          "lib": ""
+        }],
       },{
         "triangle": 7,
         "yaw": -.96,
         "pitch": .8,
+        "title": "Patterns Found in This Area",
+        "citation": [{
+          "image": "7_1.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "7_2.png",
+          "text": "",
+          "lib": ""
+        }],
+      },
+
+      {
+        "triangle": 7,
+        "yaw": .1,
+        "pitch": -0.755,
         "title": "Patterns Found in This Area",
         "citation": [{
           "image": "7_1.png",
@@ -137,7 +171,21 @@ var APP_DATA = {
           "text": "",
           "lib": ""
         }],
-      }, 
+      },       {
+        "triangle": 9,
+        "yaw": 1.0,
+        "pitch": .9,
+        "title": "Patterns Found in This Area Unknown!!! 1 ",
+        "citation": [{
+         "image": "",
+         "text": "",
+         "lib": ""
+       },{
+         "image": "",
+         "text": "",
+         "lib": ""
+       }],
+      },
       {
         "triangle": 10,
         "yaw": 1.7697,
@@ -220,20 +268,32 @@ var APP_DATA = {
         ],
       }, 
       {
-        "triangle": 14,
-        "yaw": -2,
-        "pitch": -0.855,
+        "triangle": 13,
+        "title": "Patterns Found in This Area",
+        "yaw": -1.5708,
+        "pitch": -1.5708,
+        "citation": [{
+          "image": "13_1.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "13_2.png",
+          "text": "",
+          "lib": ""
+        },{
+          "image": "13_3.png",
+          "text": "",
+          "lib": ""
+        }],
+      },
+
+      {
+        "triangle": 15,
+        "yaw": -1.2697,
+        "pitch": -0.314,
         "title": "Patterns Found in This Area",
         "citation": [{
-          "image": "14_1.png",
-          "text": "",
-          "lib": ""
-        },{
-          "image": "14_2.png",
-          "text": "",
-          "lib": ""
-        },{
-          "image": "14_3.png",
+          "image": "",
           "text": "",
           "lib": ""
         }],
@@ -310,54 +370,6 @@ var APP_DATA = {
           "text": "",
           "lib": ""
         },],
-      },
-      {
-         "triangle": 0,
-         "yaw": 1.0,
-         "pitch": .9,
-         "title": "Patterns Found in This Area Unknown!!!",
-         "citation": [{
-          "image": "",
-          "text": "",
-          "lib": ""
-        },{
-          "image": "",
-          "text": "",
-          "lib": ""
-        }],
-       },
-      {
-        "triangle": 0,
-        "yaw": -1.2697,
-        "pitch": -0.314,
-        "title": "Patterns Found in This Area Unknown!!!",
-        "citation": [{
-          "image": "",
-          "text": "",
-          "lib": ""
-        }],
-      },
-      {
-        "triangle": 0,
-        "yaw": .1,
-        "pitch": -0.755,
-        "title": "Patterns Found in This Area Unknown!!!",
-        "citation": [{
-          "image": "",
-          "text": "",
-          "lib": ""
-        }],
-      },
-      {
-        "triangle": 0,
-        "title": "Patterns Found in This Area Unknown!!!",
-        "yaw": -1.5708,
-        "pitch": -1.5708,
-        "citation": [{
-          "image": "",
-          "text": "",
-          "lib": ""
-        }],
       }
     ]
   }
