@@ -243,8 +243,8 @@ var APP_DATA = {
       },
       {
         "triangle": 12,
-        "yaw": 2.2,
-        "pitch": -0.855,
+        "yaw": -1.5708,
+        "pitch": -1.5708,
         "title": "Patterns Found in This Area",
         "citation": [
           {
@@ -270,8 +270,8 @@ var APP_DATA = {
       {
         "triangle": 13,
         "title": "Patterns Found in This Area",
-        "yaw": -1.5708,
-        "pitch": -1.5708,
+        "yaw": 2.2,
+        "pitch": -0.855,
         "citation": [{
           "image": "13_1.png",
           "text": "",
@@ -376,7 +376,7 @@ var APP_DATA = {
 ],
 "name": "electroknit-dymaxion",
 "settings": {
-  "mouseViewMode": "qtvr",
+  "mouseViewMode": "drag",
   "autorotateEnabled": true,
   "fullscreenButton": true,
   "viewControlButtons": false
