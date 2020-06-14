@@ -100,6 +100,17 @@ var APP_DATA = {
       },
       {
         "triangle": 4,
+        "yaw": .1,
+        "pitch": -0.755,
+        "title": "Patterns Found in This Area",
+        "citation": [{
+          "image": "4_1.png",
+          "text": "",
+          "lib": ""
+        }],
+      },
+      {
+        "triangle": 4,
         "yaw": 2.89,
         "pitch": -0.314,
         "title": "Patterns Found in This Area",
@@ -143,21 +154,6 @@ var APP_DATA = {
       },
 
       {
-        "triangle": 7,
-        "yaw": .1,
-        "pitch": -0.755,
-        "title": "Patterns Found in This Area",
-        "citation": [{
-          "image": "7_1.png",
-          "text": "",
-          "lib": ""
-        },{
-          "image": "7_2.png",
-          "text": "",
-          "lib": ""
-        }],
-      },
-      {
         "triangle": 8,
         "title": "Patterns Found in This Area",
         "yaw": 1.5708,
@@ -175,15 +171,15 @@ var APP_DATA = {
         "triangle": 9,
         "yaw": 1.0,
         "pitch": .9,
-        "title": "Patterns Found in This Area Unknown!!! 1 ",
+        "title": "Patterns Found in This Area",
         "citation": [{
-         "image": "",
-         "text": "",
-         "lib": ""
+         "image": "9_1.png",
+         "text": "Keele, Wendy. Poems of color : knitting in the Bohus tradition. Loveland, CO: Interweave Press, 1995. Print.",
+         "lib": "Cat Mazza's Collection"
        },{
-         "image": "",
-         "text": "",
-         "lib": ""
+         "image": "9_2.png",
+         "text": "Keele, Wendy. Poems of color : knitting in the Bohus tradition. Loveland, CO: Interweave Press, 1995. Print.",
+         "lib": "Cat Mazza's Collection"
        }],
       },
       {

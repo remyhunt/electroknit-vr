@@ -378,8 +378,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 } 
 
 .info-hotspot .info-hotspot-src-img.notext {
-  display: block;
-
+  display: auto;
+  margin:15px;
 } 
 
 .info-hotspot .info-hotspot-src-triangle {
