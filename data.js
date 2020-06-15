@@ -115,7 +115,7 @@ var APP_DATA = {
         "pitch": -0.314,
         "title": "Patterns Found in This Area",
         "citation": [{
-          "image": "4_1.jpg",
+          "image": "4_1.png",
           "text": "",
           "lib": ""
         }],
