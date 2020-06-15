@@ -36,7 +36,7 @@ var APP_DATA = {
           "triangle": 1,
           "yaw": -2.2,
           "pitch": 0.43,
-          "title": "Patterns Found in This Area",
+          "title": "",
           "citation": [{
             "image": "1_1.png",
             "text": "",
@@ -47,7 +47,7 @@ var APP_DATA = {
           "triangle": 2,
           "yaw": -3.0,
           "pitch": 0.855,
-          "title": "Patterns Found in This Area",
+          "title": "",
           "citation": [{
             "image": "2_1.png",
             "text": "",
@@ -70,7 +70,7 @@ var APP_DATA = {
           "triangle": 3,
           "yaw": 2.6,
           "pitch": 0.43,
-          "title": "Patterns Found in This Area",
+          "title": "",
           "citation": [{
             "image": "3_1.png",
             "text": "",
@@ -102,7 +102,7 @@ var APP_DATA = {
         "triangle": 4,
         "yaw": .1,
         "pitch": -0.755,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "4_1.png",
           "text": "",
@@ -113,7 +113,7 @@ var APP_DATA = {
         "triangle": 4,
         "yaw": 2.89,
         "pitch": -0.314,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "4_1.png",
           "text": "",
@@ -123,7 +123,7 @@ var APP_DATA = {
         "triangle": 6,
         "yaw": -2,
         "pitch": -0.855,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "6_1.png",
           "text": "",
@@ -141,7 +141,7 @@ var APP_DATA = {
         "triangle": 7,
         "yaw": -.96,
         "pitch": .8,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "7_1.png",
           "text": "",
@@ -155,7 +155,7 @@ var APP_DATA = {
 
       {
         "triangle": 8,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "yaw": 1.5708,
         "pitch": 1.5708,
         "citation": [{
@@ -171,7 +171,7 @@ var APP_DATA = {
         "triangle": 9,
         "yaw": 1.0,
         "pitch": .9,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
          "image": "9_1.png",
          "text": "Keele, Wendy. Poems of color : knitting in the Bohus tradition. Loveland, CO: Interweave Press, 1995. Print.",
@@ -186,7 +186,7 @@ var APP_DATA = {
         "triangle": 10,
         "yaw": 1.7697,
         "pitch": 0.374,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [
           {
             "image": "10_1.png",
@@ -215,7 +215,7 @@ var APP_DATA = {
         "triangle": 11,
         "yaw": 1.4697,
         "pitch": -0.314,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "11_1.png",
           "text": "Schevill, Margot., et al. Textile Traditions of Mesoamerica and the Andes : an Anthology / Edited by Margot Blum Schevil, Janet Catherine Berlo, Edward B. Dwyer. 1st University of Texas Press ed., University of Texas Press, 1996.",
@@ -241,7 +241,7 @@ var APP_DATA = {
         "triangle": 12,
         "yaw": -1.5708,
         "pitch": -1.5708,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [
           {
             "image": "12_1.png",
@@ -265,7 +265,7 @@ var APP_DATA = {
       }, 
       {
         "triangle": 13,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "yaw": 2.2,
         "pitch": -0.855,
         "citation": [{
@@ -287,7 +287,7 @@ var APP_DATA = {
         "triangle": 15,
         "yaw": -1.2697,
         "pitch": -0.314,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "15_1.png",
           "text": "",
@@ -306,7 +306,7 @@ var APP_DATA = {
         "triangle": 16,
         "yaw": -0.55,
         "pitch": -0.314,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "16_1.png",
           "text": "",
@@ -325,7 +325,7 @@ var APP_DATA = {
         "triangle": 17,
         "yaw": -0.3,
         "pitch": 0.35,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "17_1.png",
           "text": "",
@@ -348,7 +348,7 @@ var APP_DATA = {
         "triangle": 18,
         "yaw": .45,
         "pitch": 0.40,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "18_1.png",
           "text": "",
@@ -364,7 +364,7 @@ var APP_DATA = {
         "triangle": 19,
         "yaw": 3.7,
         "pitch": -0.314,
-        "title": "Patterns Found in This Area",
+        "title": "",
         "citation": [{
           "image": "19_1.png",
           "text": "",

@@ -243,7 +243,8 @@
     titleWrapper.classList.add('info-hotspot-title-wrapper');
     var title = document.createElement('div');
     title.classList.add('info-hotspot-title');
-    title.innerHTML = hotspot.title;
+    // title.innerHTML = hotspot.title;
+      title.innerHTML = "Patterns Sampled In This Region";
     // TODO: replace this with above line
     // title.innerHTML += " ( " + hotspot.triangle + " ) ";
     titleWrapper.appendChild(title);
