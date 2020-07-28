@@ -258,6 +258,9 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   vertical-align: middle;
   height: 100%;
 }
+.mobile .info-hotspot-src-wrapper {
+
+}
 
 .info-hotspot .info-hotspot-title {
   display: inline-block;
